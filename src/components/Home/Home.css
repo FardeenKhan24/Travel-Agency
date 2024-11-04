@@ -1,0 +1,42 @@
+.container1 {
+  position: relative; 
+  width: 100vw;
+  height: 100vh;
+}
+
+.container1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.overlay {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: white;
+  text-align: center;
+}
+
+.heading{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.para{
+  margin-bottom: 10px;
+  color: black;
+}
+
+
+.center-button{
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.center-button:hover{
+  background-color: blue;
+  color: white;
+  letter-spacing: 1px;
+}
